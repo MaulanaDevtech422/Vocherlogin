@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Voucher WiFi</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f6fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-input {
+            background: #ECF0F3;
+            border-radius: 35px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15),
+                        -10px -10px 85px rgba(255, 255, 255, 1);
+            padding: 32px;
+            text-align: center;
+            width: 90%;
+            max-width: 300px;
+        }
+
+        .login-input img {
+            width: 100%;
+            margin-bottom: 60px;
+        }
+
+        .login-input h1 {
+            font-size: 24px;
+            margin-bottom: 70px;
+            color: #ff0000;
+        }
+
+    
+.button-group {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 53px;
+        }
+
+        .button-group a {
+            flex: 1;
+            text-decoration: none;
+            border-radius: 36px;
+            padding: 10px 0;
+            font-size: 14px;
+            color: #fff;
+            cursor: pointer;
+            background-color: #ff0000;
+            transition: background-color 0.3s ease;
+            text-align: center;
+            margin: 0 4px;
+        }
+
+        .button-group a:hover {
+            background-color: #FF1F4C;
+        }
+
+        .login-input input {
+            width: 250px;       
+            height:27px;
+            padding: 12px;
+            margin-bottom: 16px;
+            border: 1px solid #ECF0F3;
+            border-radius: 36px;
+            font-size: 14px;
+            background: #ECF0F3;
+            box-shadow: inset 4px 4px 5px rgba(0, 0, 0, 0.17), inset -8px -5px 10px rgba(255, 255, 255, 1);
+            transition: box-shadow 0.3s ease;
+            margin-bottom:25px;
+        }
+
+        .login-input input:focus {
+            outline: none;
+            box-shadow: inset 4px 4px 5px rgba(0, 0, 0, 0.17), inset -2px -5px 10px rgba(255, 255, 255, 1);
+        }
+
+        .login-input button {
+            width: 90%;
+            background-color: #ff0000;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15),
+                        -10px -10px 85px rgba(255, 255, 255, 1);
+        }
+
+        .login-input button:hover {
+            background-color: #ff0000;
+        }
+
+        .login-input p {
+            margin-top: 16px;
+            font-size: 12px;
+            color: #aaa;
+        }
+            .login-input input placeholder{
+            	text-align:center;
+            	}
+    </style>
+</head>
+<body>
+    <div class="login-input">
+        <img src="logoku.png" alt="Logo">
+        <div class="button-group">
+            <a href="index.html" id="member-link">vocher</a>
+            <a href="pricing.html" id="qr-code-link">harga</a>
+        </div>
+        <input type="text" placeholder="Masukkan Username">
+        <input type="password" placeholder="Masukkan Password" >
+        <button>MASUK</button>
+        <p>&copy; MaulanaTech</p>
+    </div>
+</body>
+</html>
